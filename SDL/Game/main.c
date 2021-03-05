@@ -22,7 +22,7 @@
 #define VITESSEBALLE 4
 
 //parametre Brick
-#define NOMBREBRICKWIDTH 0
+#define NOMBREBRICKWIDTH 5
 #define BRICKWIDTH 100
 #define BRICKHEIGHT 30
 
