@@ -9,18 +9,23 @@
 //
 //==============================================================
 
-
 //lib
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-#include "masterMind.h"
 
-
-
+//constante du master mind
 #define NBTROU 5
 #define NBCOULEUR 9
+
+
+#include "masterMind.h"
+    
+
+
+
+
 
 int main(int argc, char const *argv[])
 {

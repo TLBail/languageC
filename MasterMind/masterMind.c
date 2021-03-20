@@ -1,8 +1,3 @@
-
-
-#define NBTROU 5
-#define NBCOULEUR 9
-
 //t est le tableau contenant la solution générée
 //redondance = 0 pour non et 1 pour oui
 void choisirSolution(int t[5], int redondance){

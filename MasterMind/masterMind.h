@@ -1,4 +1,10 @@
-#include "masterMind.c"
+#ifndef DEF_MASTERMIND
+    #define DEF_MASTERMIND 
+
+    #include "masterMind.c"
+    
+    
+#endif
 
 
 
