@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "sdl.h": "c",
-        "game.h": "c"
+        "game.h": "c",
+        "mastermind.c": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
