@@ -4,7 +4,9 @@
         "game.h": "c",
         "mastermind.c": "cpp",
         "stdlib.h": "c",
-        "mastermind.h": "c"
+        "mastermind.h": "c",
+        "structure.c": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.dimInactiveRegions": false
 }
