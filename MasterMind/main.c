@@ -61,9 +61,14 @@ int main(int argc, char const *argv[])
         bp = bienPlaces(codeSecret, codeEssai);
         ml = malPlaces(codeSecret, codeEssai);
         afficherResultat(bp, ml);
-    } while (bp < NBTROU);
-    
-    printf("Felicitations tu as reussi !!\n");
+    } while (bp < NBTROU  && nbEssai < 12);
+
+    //si le joueur a trouvé le bon code 
+    if(bp >= NBTROU){
+        printf("Felicitations tu as reussi !!\n");        
+    }else{ // sinon il a n'a pas trouvé le bon code 
+        printf("trop d'essai tu as echouer");
+    }
 
     
     
