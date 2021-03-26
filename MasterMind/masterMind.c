@@ -58,7 +58,7 @@ int malPlaces(int s[5], int e[5])
     {
         for (size_t j = 0; j < NBTROU; j++)
         {
-            if (s[i] == e[j] && s[i] != e[i])
+            if (s[i] == e[j] && s[i] != e[i] && e[j] != s[j])
             {
                 sum++;
                 break;
