@@ -36,14 +36,14 @@ int main(int argc, char const *argv[])
         codeEssai[NBTROU], nbEssai = 0;
 
     //on attend que l'utilisateur met 1 ou 0
-    while (1)
+    do
     {
     
         printf("Voulez vous avec ou sans redondance du code secret\n");
-        printf("0 avec redondance 1  sans redondance\n");
+        printf("0 sans redondance 1 avec redondance \n");
         scanf("%d", &redondance);
         while(getchar()!='\n');
-    }
+    }while(redondance != 0 && redondance != 1);
     
     //generation du code secret zero sans redondance 1 avec redondance
     choisirSolution(codeSecret, redondance);
@@ -56,12 +56,15 @@ int main(int argc, char const *argv[])
     }
     printf("\n\n");
 
+    //affichage de la solution pour le debug
     for (size_t i = 0; i < NBTROU; i++)
     {
         printf("%d", codeSecret[i]);
     }
     printf("\n");
     
+
+    //boucle de jeu tant que le joueur a toujour des essai et na pas le bon code
     do
     {
         nbEssai++;
@@ -78,11 +81,6 @@ int main(int argc, char const *argv[])
     }else{ // sinon il a n'a pas trouvé le bon code 
         printf("trop d'essai tu as echouer");
     }
-
-    
-    
-
-
 
     return 0;
 

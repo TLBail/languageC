@@ -42,7 +42,6 @@ void entrerEssai(int t[NBTROU])
     scanf("%s", &msg);
     for (size_t i = 0; i < NBTROU; i++)
     {
-
         str[0] = msg[i];
         str[1] = '\0';
         t[i] = (int)strtol(str, NULL, 10);
